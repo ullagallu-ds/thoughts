@@ -17,3 +17,8 @@
 2. How do you manage secrets in terraform
 3. How do you manage multiple environemnts in terraform
 4. What is terraform how can you manage statefile
+5. You need to manage secrets in your terraform such as API keys database passwords how can you handle sensitive data
+    - Vault → If using HashiCorp Vault.
+    - AWS Secrets Manager / SSM → For AWS-based infrastructure.
+    - Environment variables → For local development.
+    - Terraform Cloud Vault → If using Terraform Cloud.
